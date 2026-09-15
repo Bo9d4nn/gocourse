@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	// var numero int = 14
+	numero := 15
 	fmt.Println("Hello, Go Startand Library")
 
 	resp, err := foo.Get("http://jsonplaceholder.typicode.com/posts/1")
@@ -16,4 +18,5 @@ func main() {
 	defer resp.Body.Close()
 
 	fmt.Println("Response Status:", resp.Status)
+	fmt.Println("El nuemro es", numero)
 }

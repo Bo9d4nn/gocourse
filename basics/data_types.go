@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello" + "World!")
+	fmt.Println("9 x 10 = ", 9*10)
+
+	fmt.Println(true && false)
+}
